@@ -1,6 +1,6 @@
 FROM --platform=linux/amd64 openjdk:11.0.13-slim-buster
 #FROM --platform=linux/amd64 openjdk:21-slim-bullseye
-#random
+#random 1
 RUN addgroup --system javauser && adduser --system --home /home/javauser --ingroup javauser javauser
 RUN mkdir /app
 RUN chown -R javauser:javauser /app
