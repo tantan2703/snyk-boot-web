@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 openjdk:11.0.13-slim-buster
+FROM --platform=linux/amd64 openjdk:11.0.14.1-slim-buster
 #FROM --platform=linux/amd64 openjdk:21-slim-bullseye
 #random 12
 RUN addgroup --system javauser && adduser --system --home /home/javauser --ingroup javauser javauser
